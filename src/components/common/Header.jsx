@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
-              className="reactarcade-logoimg"
+              className="reactarcade-logoimg me-2"
               src={'/images/logo.jpg'}
               alt="ReactArcade Logo"
             />
@@ -29,12 +29,12 @@ const Header = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link" to="/">
-                  Home
+                  Főoldal
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Games">
-                  Games
+                <Link className="nav-link" to="/games">
+                  Játékok
                 </Link>
               </li>
             </ul>

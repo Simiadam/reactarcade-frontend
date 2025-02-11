@@ -2,15 +2,12 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="home-container text-white bg-dark min-vh-100 d-flex flex-column align-items-center justify-content-center">
+    <div className="min-vh-100 d-flex flex-column align-items-center justify-content-center">
       <h1 className="display-4 text-warning text-gradient">
-        Welcome to ReactArcade!
+        Üdv a ReactArcade-ben!
       </h1>
       <p className="lead text-info">
-        Hey there! Ready to have some fun while sharpening your skills? Dive
-        into our awesome collection of games that will help you boost your
-        reaction time, tackle some math challenges, and test your aim. Let’s
-        get started!
+        Helló! Kész vagy egy kis szórakozásra, miközben fejleszted a készségeidet? Merülj el érdekes játékainkban, amely segít növelni a reakcióidődet és különböző kihívásokkal szembesít.
       </p>
     </div>
   );
