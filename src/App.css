@@ -1,9 +1,24 @@
 body{
+  font-family: "Jersey 15", sans-serif;
+  font-size: 1.6rem;
   background: linear-gradient(135deg, #1a1a1a, #212529);
   color: #ffffff;
 }
 
+#root {
+  width: 100%;
+  text-align: center;
+}
+
 /*Navbar*/
+
+.navbar{
+  font-size: 2rem;
+}
+
+.navbar-brand{
+  font-size: 2.2rem;
+}
 
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
@@ -29,14 +44,21 @@ main.container{
   margin-top: 90px;
 }
 
+.card-title{
+  font-size: 2.2rem;;
+}
+
+.lead.text-info{
+  font-size: 2rem;
+}
+
 /*Games*/
 
 .gamecontainer {
   text-align: center;
   position: relative;
-  height: 90vh;
+  height: 80vh;
   overflow: hidden;
-  font-family: Arial, sans-serif;
 }
 
 .start-screen button {
@@ -93,4 +115,33 @@ main.container{
 
 .grow {
   transform: scale(1.1);
+}
+
+/* MemoryGmae */
+
+.cards{
+  padding: 50px;
+}
+
+.memory-card {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.memory-card img {
+  object-fit: cover;
+}
+
+.memory-card.animate {
+  transform: scale(1.1);
+  background-color: #c09762
+}
+
+.memory-card.active {
+  border-color: #00ff00;
 }

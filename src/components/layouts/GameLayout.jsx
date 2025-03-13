@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../common/header';
+import Header from '../common/Header';
 
 const GameLayout = ({ children }) => {
   return (
-    <div class="app">
+    <div className="app">
       <Header />
       <main className="container">{children}</main>
     </div>

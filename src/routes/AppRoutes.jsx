@@ -5,6 +5,7 @@ import GameLayout from '../components/layouts/GameLayout';
 import Home from '../pages/Home';
 import Games from '../pages/Games';
 import TrashGamePage from '../pages/TrashGamePage';
+import MemoryGamePage from '../pages/MemoryGamePage';
 
 const AppRoutes = () => {
   return (
@@ -31,6 +32,14 @@ const AppRoutes = () => {
           element={
             <GameLayout>
               <TrashGamePage />
+            </GameLayout>
+          }
+        />
+        <Route
+          path="/games/memorygamepage"
+          element={
+            <GameLayout>
+              <MemoryGamePage />
             </GameLayout>
           }
         />

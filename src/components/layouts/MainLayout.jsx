@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../common/header';
-import Footer from '../common/footer';
+import Header from '../common/Header';
+import Footer from '../common/Footer';
 
 const MainLayout = ({ children }) => {
   return (
-    <div class="app">
+    <div className="app container">
       <Header />
       <main className="container">{children}</main>
       <Footer />
